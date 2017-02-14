@@ -2,6 +2,24 @@
 
 $(document).ready(function(){
 
+     $(document).on("scroll", function(){
+            var documentScroll = $(this).scrollTop();
+            if(documentScroll > 600){
+                $('#js-up').css("display", "block");
+            }
+            else{
+                $('#js-up').removeAttr("style");
+            }
+        });
+
+     $('#js-up a').on("click", function(e){
+        e.preventDefault();
+        var scrollTopH = $('#js-head').offset().top;
+        $('html, body').animate({
+            scrollTop: scrollTopH
+        }, 1500);
+     });
+
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
