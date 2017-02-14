@@ -1,3 +1,80 @@
+.clear{
+	clear: both;
+}
+
+/*===========delivery==========*/
+
+.df-border{
+	padding: 30px 0 20px 0;
+}
+.df-container{
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+.df-delivery_view{
+
+}
+.df-deliverycap{
+	color: #141414;
+	font-family: Russia;
+	font-size: 34px;
+	text-align: center;
+}
+
+
+.df-deliverybox_view{
+	max-width: 370px;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	margin-right: 22px;
+	position: relative;
+}
+.dfnumber_view{
+	font-size: 30px;
+	color: #2e332e;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid #f2f2f2;
+	background-color: #fff;
+	position: absolute;
+	top:-20px;
+	left:35px;
+
+}
+.df-deliveryimg_view{
+	max-width: 367px;
+	height: 130px;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.df-deliverytxt1_view{
+	color: black;
+	font-family: Russia;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.df-deliverytxt2_view{
+	font-family: "pfagorasanspro-reg";
+	font-size: 12px;
+	color: #000000;
+	line-height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -9,6 +86,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.df-border{
+		padding: 60px 0 50px 0;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
