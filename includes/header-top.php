@@ -61,12 +61,22 @@
 			</div>
 		</div>
 	</div>
-	<div class="dd-main-header-wrap">
-		<div class="dd-main-txt">
-			<span>Доставка одежды
-				из Турции от 50 кг
-				за 6 дней 
-			</span>
-		</div>
-	</div>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="dd-main-header-wrap">
+				<div class="dd-main-txt">
+					<span>Доставка одежды
+						из Турции от 50 кг
+						за 6 дней 
+					</span>
+				</div>
+				<div class="dd-slogan">
+					<span>по лучшей цене в России</span>
+				</div>
+			</div><!-- dd-main-header-wrap -->
+			
+		</div><!-- Row -->
+	</div><!-- Container -->
 </section>
