@@ -5,16 +5,29 @@
 	color: #222121;
 	font-family: "russiamedium";
 	font-size: 34px;
+	padding-bottom: 30px;
 }
 .db-garant-p{
 	span{
 		font-family: "pfagorasanspro-bold";
 		font-size: 19px;
-		display: block;
+		display: inline-block;
+		padding-top: 8px;
+		padding-bottom: 6px;
 	}
 	color: #151515;
 	font-family: "pfagorasanspro-reg";
 	font-size: 12px;
+	padding-bottom: 20px;
+	max-width:320px;
+	width:100%;
+	margin: 0 auto;
+}
+.db-garant-button{
+	font-size: 14px;
+	font-size: 14px;
+	padding: 10px 36px;
+	margin-top: 10px;
 }
 
 @media only screen and (min-width : 320px) {
@@ -27,6 +40,15 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.section__db-garant-padding{
+		padding: 50px 0 !important;
+	}
+	.db-garant-p{
+		padding-bottom: 0;
+	}
+	.db-garant-button{
+		padding: 18px 36px;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
