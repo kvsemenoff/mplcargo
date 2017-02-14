@@ -1,4 +1,4 @@
-<section class="section section__padding df-border">
+<section class="section section__padding df-center">
 	<div class="container df-container">
 		<div class="df-delivery df-delivery_view">
 			<h3 class="df-deliverycap">Доставка из Турции за 3 шага <br> и Вы уже продаете товар</h3>
@@ -22,5 +22,6 @@
 				</div>
 			
 		</div>
+		<a href="#" class="button-1 button-1df">Расчитать стоимости доставки</a>
 	</div>
 </section>
