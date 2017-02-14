@@ -24,14 +24,14 @@
 .dd-logo-txt{
 	color: white;
 	font-family: "pfagorasanspro-light";
-	font-size: 10px;
+	font-size: 11px;
 	padding-left: 15px;
 }
 .dd-menu-wrap{
 	a{
 		color: white;
 		font-family: "pfagorasanspro-light";
-		font-size: 10px;
+		font-size: 14px;
 	}
 }
 .dd-green{
@@ -75,11 +75,30 @@
 	background: url(../img/turkey.png) no-repeat left center;
 	display:inline-block;
 	padding-left: 20px;
-	margin-left: 15px;
+	margin-left: 20px;
+	margin-top: 6px;
+}
+.tr{
+	position: relative;
+}
+.tr:after{
+	content:"";
+	position:absolute;
+	background: url(../img/treg.png) no-repeat;
+	width: 6px;
+	height: 4px;
+	left:-10px;
+	top:7px;
+}
+.it-number{
+	background: url(../img/it.png) no-repeat left center;
+	display:inline-block;
+	padding-left: 20px;
+	margin-left: 20px;
 	margin-top: 6px;
 }
 .dd-links-h-w{
-	padding-left: 15px;
+	padding-left: 20px;
 }
 .dd-main-txt{
 	padding-left: 10px;
@@ -191,7 +210,7 @@
 		float:right;
 	}
 	.dd-menu-wrap{
-		padding-left: 10px;
+		padding-left: 0px;
 		ul{
 			li{
 				display: inline-block;
@@ -220,7 +239,7 @@
 	.dd-menu-wrap{
 		ul{
 			li{
-				margin-left: 40px;
+				margin-left: 29px;
 			}
 			li:last-child{
 				margin-right: 70px;
