@@ -7,6 +7,13 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "plumb-black.ttf";
+    src: url("../fonts/plumb-black.ttf");
+    src: url("../fonts/plumb-black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 @font-face {
     font-family: "pfagorasanspro-medium";
