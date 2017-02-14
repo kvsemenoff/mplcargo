@@ -18,6 +18,24 @@
 }
 
 @font-face {
+    font-family: "acrobat-regular";
+    src: url("../fonts/acrobat/Acrobat.ttf");
+    src: url("../fonts/acrobat/Acrobat.ttf") format("truetype"),
+    url("../fonts/acrobat/Acrobat.woff") format("woff"),
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "acrobat-bold";
+    src: url("../fonts/acrobat/akrobatbold.ttf");
+    src: url("../fonts/acrobat/akrobatbold.ttf") format("truetype"),
+    url("../fonts/acrobat/akrobatbold.woff") format("woff"),
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: "pfagorasanspro-bold";
     src: url("../fonts/PFAgoraSansPro/pfagorasanspro-bold.eot");
     src: url("../fonts/PFAgoraSansPro/pfagorasanspro-bold.eot") format("embedded-opentype"),
