@@ -5,20 +5,25 @@
 /*===========delivery==========*/
 
 .df-border{
-	padding: 30px 0 20px 0;
+	
 }
 .df-container{
+	padding: 30px 0 20px 0;
 	border-top: 1px solid #e2e2e2;
 	border-bottom: 1px solid #e2e2e2;
+	max-width: 1190px;
+	width: 100%;
+	margin: 0 auto;
 }
 .df-delivery_view{
-
+	text-align: center;
 }
 .df-deliverycap{
 	color: #141414;
 	font-family: Russia;
 	font-size: 34px;
-	text-align: center;
+	margin-bottom: 30px;
+	font-family: "russiamedium";	
 }
 
 
@@ -27,8 +32,13 @@
 	width: 100%;
 	display: inline-block;
 	text-align: left;
-	margin-right: 22px;
+	padding: 0 10px;
+	// margin-right: 22px;
 	position: relative;
+	vertical-align: top;
+}
+.df-delivery_view div.df-deliverybox_view:nth-child(4){
+	margin-right: 0;
 }
 .dfnumber_view{
 	font-size: 30px;
@@ -41,14 +51,18 @@
 	position: absolute;
 	top:-20px;
 	left:35px;
-
+	display: block;
+	text-align: center;
+    padding-top: 6px;
 }
 .df-deliveryimg_view{
 	max-width: 367px;
 	height: 130px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	img{
 		width: 100%;
-		height: auto;
+		height: 100%;
 	}
 }
 .df-deliverytxt1_view{
@@ -56,14 +70,23 @@
 	font-family: Russia;
 	font-size: 19px;
 	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 5px;
+	font-family: "russiamedium";	
 }
 .df-deliverytxt2_view{
 	font-family: "pfagorasanspro-reg";
 	font-size: 12px;
 	color: #000000;
 	line-height: 16px;
+	display: inline-block;
 }
 
+.button-1df{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 17px 30px 11px 30px;
+}
 
 
 
@@ -86,8 +109,15 @@
 }
 
 @media only screen and (min-width : 992px) {
-	.df-border{
+	.df-container{
 		padding: 60px 0 50px 0;
+	}
+	.df-deliveryimg_view{		
+		margin-bottom: 35px;
+		margin-top: 0;		
+	}
+	.df-deliverybox_view{		
+		margin-right: 22px;		
 	}
 }
 

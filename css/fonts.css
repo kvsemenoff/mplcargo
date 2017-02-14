@@ -7,6 +7,13 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "plumb-black";
+    src: url("../fonts/plumb-black.ttf");
+    src: url("../fonts/plumb-black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 @font-face {
     font-family: "pfagorasanspro-medium";
@@ -28,6 +35,15 @@
     font-weight: normal;
 }
 
+ @font-face {
+    font-family: "russiamedium";
+    src: url("../fonts/russiamedium/russiamedium.eot");
+    src: url("../fonts/russiamedium/russiamedium.eot") format("embedded-opentype"),
+    url("../fonts/russiamedium/russiamedium.woff") format("woff"),
+    url("../fonts/russiamedium/russiamedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
   @font-face {
   font-family: "pfagoraserifpro-black";
   src: url("../fonts/PFAgoraSerifPro/pfagoraserifpro-black.ttf");
