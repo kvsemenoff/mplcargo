@@ -35,9 +35,9 @@
 							<div class="dd-tyrkey text__center">
 								<a class="number__style turkey-number" href="#">+90 212 900 89 56</a>
 							</div>
-							<!-- <div class="dd-italy text__center">
-								<a class="number__style" href="#">+88 888 988 89 56</a>
-							</div> -->
+							<div class="dd-italy text__center">
+								<a class="number__style turkey-number" href="#">+88 888 988 89 56</a>
+							</div>
 							<div class="dd-links-h-w">	
 								<a class="dd-links-h" href="#">Турция</a>
 								<a class="dd-links-h" href="#">Италия</a>
@@ -74,6 +74,13 @@
 				</div>
 				<div class="dd-slogan">
 					<span>по лучшей цене в России</span>
+				</div>
+				<div class="dd-paragraf">
+					<p>— Надоело что из-за задержек транспортных компаний ваш бизнес теряет прибыль ?</p>
+					<p>— повысьте товарооборот своего магазина на 30% благодаря быстрому и предсказуемому поступлению Нового товара Из Турции</p>
+				</div>
+				<div class="dd-button-header-wrap">
+					<a class="button-1 button-1__padding" href="#">Заказать бесплатную консультацию</a>
 				</div>
 			</div><!-- dd-main-header-wrap -->
 			

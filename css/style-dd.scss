@@ -94,6 +94,7 @@
 }
 .dd-slogan{
 	padding-top: 25px;
+	padding-bottom: 28px;
 	span{
 		display: inline-block;
 		padding-left: 13px;
@@ -101,12 +102,59 @@
 		height: 31px;
 		background: url(../img/g.png) no-repeat center; 
 		color: white;
-		font-family: "acrobat-semibold";
+		font-family: "acrobat-bold";
 		font-size: 22px;
 	}
 }
+.dd-paragraf{
+	padding-bottom: 34px;
+	p{
+		color: white;
+		font-family: "pfagorasanspro-reg";
+		font-size: 13px;
+	}
+	p:first-child{
+		margin-bottom: 10px;
+	}
+}
+.dd-button-header-wrap{
+	padding-bottom: 44px;
+}
 
+/* Footer
+================================*/
+.section__footer{
+	background: #282928;
+	min-height:74px;
+	padding-top: 22px;
+	padding-bottom: 15px;
+}
+.dd-logo-wrap__footer{
+	width: 244px;
+}
+.logo-diz{
+	width: 100px;
+	span{
+		display: block;
+		font-family: "pfagorasanspro-light";
+		color:#fff;
+		font-size: 10px;
+	}
+}
+.privacy{
+	text-decoration:underline;
+	color:#fff;
+	font-family: "pfagorasanspro-reg";
+}
+.copy{
+	display:inline-block;
+	padding-top: 3px;
+}
 
+// Select номера
+.dd-italy{
+	display:none;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -125,6 +173,17 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.logo-diz{
+		width: 150px;
+		padding-left: 52px;
+	}
+	.section__header{
+		background: url(../img/bigh.jpg) no-repeat top center;
+		height: 576px;
+	}
+	.dd-main-header-wrap{
+		width: 432px;
+	}
 	.dd-float__left{
 		float:left;
 	}
@@ -154,6 +213,10 @@
 }
 
 @media only screen and (min-width : 1248px) {
+	.logo-diz{
+		width: 300px;
+		padding-left: 52px;
+	}
 	.dd-menu-wrap{
 		ul{
 			li{
