@@ -38,7 +38,7 @@
 							</div>
 						</div>
 						<div class="col-md-12">
-							<a href="#" class="button-1 db-get-button">Получить реквизиты и схемы работы</a>
+							<a href="#log-in7" name="modal" class="button-1 db-get-button">Получить реквизиты и схемы работы</a>
 						</div>
 					</div>
 				</div>
