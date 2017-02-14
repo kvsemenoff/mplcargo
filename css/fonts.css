@@ -8,7 +8,7 @@
     font-weight: normal;
 }
 @font-face {
-    font-family: "plumb-black.ttf";
+    font-family: "plumb-black";
     src: url("../fonts/plumb-black.ttf");
     src: url("../fonts/plumb-black.ttf") format("truetype");
     font-style: normal;
