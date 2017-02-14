@@ -13,8 +13,8 @@
 <?php require_once('includes/we-help.php'); ?>
 <?php require_once('includes/otziv.php'); ?>
 <?php require_once('includes/qusetion.php'); ?>	
+<?php require_once('includes/popup.php'); ?>
 <?php require_once('includes/footer.php'); ?>
-
 	
 </body>
 </html>

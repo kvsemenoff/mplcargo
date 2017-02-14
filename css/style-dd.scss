@@ -1,16 +1,250 @@
 
+.dd-float__left_min{
+	float:left;
+}
+.margin-center{
+	margin: 0 auto;
+}
+.text__center{
+	text-align:center;
+}
+
+/* Шапка
+=========================*/
+
+.section__header{
+	background: url(../img/smallh.jpg) no-repeat top center;
+	width: 100%;
+	background-size: cover;
+}
+.dd-header-top-wrap{
+	background-color: rgba(#0f100f, 0.2);
+	padding: 19px 0px 14px;
+}
+.dd-logo-txt{
+	color: white;
+	font-family: "pfagorasanspro-light";
+	font-size: 11px;
+	padding-left: 15px;
+}
+.dd-menu-wrap{
+	a{
+		color: white;
+		font-family: "pfagorasanspro-light";
+		font-size: 14px;
+	}
+}
+.dd-green{
+	span{
+		padding: 6px 10px;
+		background: url(../img/green.png) no-repeat top center;
+		display: inline-block;
+		width: 130px;
+		height: 31px;
+		color: #fefefe;
+		font-family: "pfagorasanspro-reg";
+		font-size: 9px;
+	}
+}
+.number__style{
+	color: #fff;
+	font-family: "pfagorasanspro-medium";
+	font-size: 15px;
+}
+.dd-links-h{
+	color: #00baff;
+	font-family: "pfagorasanspro-reg";
+	font-size: 10px;
+	text-decoration:underline;
+}
+.active{
+	color:#B1AFAF;
+	text-decoration:unset;
+}
+.dd-logo-wrap{
+	width: 160px;
+}
+.rus-number{
+	background: url(../img/russia.png) no-repeat left center;
+	display:inline-block;
+	padding-left: 20px;
+	margin-left: 15px;
+	margin-top: 6px;
+}
+.turkey-number{
+	background: url(../img/turkey.png) no-repeat left center;
+	display:inline-block;
+	padding-left: 20px;
+	margin-left: 20px;
+	margin-top: 6px;
+}
+.tr{
+	position: relative;
+}
+.tr:after{
+	content:"";
+	position:absolute;
+	background: url(../img/treg.png) no-repeat;
+	width: 6px;
+	height: 4px;
+	left:-10px;
+	top:7px;
+}
+.it-number{
+	background: url(../img/it.png) no-repeat left center;
+	display:inline-block;
+	padding-left: 20px;
+	margin-left: 20px;
+	margin-top: 6px;
+}
+.dd-links-h-w{
+	padding-left: 20px;
+}
+.dd-main-txt{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	color: white;
+	font-family: "russiamedium";
+	// font-size: 46px;
+	font-size:30px;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+.dd-slogan{
+	padding-top: 25px;
+	padding-bottom: 28px;
+	span{
+		display: inline-block;
+		padding-left: 13px;
+		width: 239px;
+		height: 31px;
+		background: url(../img/g.png) no-repeat center; 
+		color: white;
+		font-family: "acrobat-bold";
+		font-size: 22px;
+	}
+}
+.dd-paragraf{
+	padding-bottom: 34px;
+	p{
+		color: white;
+		font-family: "pfagorasanspro-reg";
+		font-size: 13px;
+	}
+	p:first-child{
+		margin-bottom: 10px;
+	}
+}
+.dd-button-header-wrap{
+	padding-bottom: 44px;
+}
+
+/* Footer
+================================*/
+.section__footer{
+	background: #282928;
+	min-height:74px;
+	padding-top: 22px;
+	padding-bottom: 15px;
+}
+.dd-logo-wrap__footer{
+	width: 244px;
+}
+.logo-diz{
+	width: 100px;
+	span{
+		display: block;
+		font-family: "pfagorasanspro-light";
+		color:#fff;
+		font-size: 10px;
+	}
+}
+.privacy{
+	text-decoration:underline;
+	color:#fff;
+	font-family: "pfagorasanspro-reg";
+}
+.copy{
+	display:inline-block;
+	padding-top: 3px;
+}
+
+// Select номера
+.dd-italy{
+	display:none;
+}
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-main-txt{
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 52px;
+		text-align:left;
+		font-size: 46px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	.logo-diz{
+		width: 150px;
+		padding-left: 52px;
+	}
+	.section__header{
+		background: url(../img/bigh.jpg) no-repeat top center;
+		height: 576px;
+	}
+	.dd-main-header-wrap{
+		width: 432px;
+	}
+	.dd-float__left{
+		float:left;
+	}
+	.dd-float__right{
+		float:right;
+	}
+	.dd-menu-wrap{
+		padding-left: 0px;
+		ul{
+			li{
+				display: inline-block;
+				margin-left: 5px;
+				// margin-left: 40px;
+			}
+			li:last-child{
+				margin-right: 30px;
+			}
+		}
+	}
+	.text__center{
+		text-align: unset;
+	}
+	.dd-soc-ico{
+		margin-top: -17px;
+	}
+
 }
 
 @media only screen and (min-width : 1248px) {
+	.logo-diz{
+		width: 300px;
+		padding-left: 52px;
+	}
+	.dd-menu-wrap{
+		ul{
+			li{
+				margin-left: 29px;
+			}
+			li:last-child{
+				margin-right: 70px;
+			}
+		}
+	}
 }
 
