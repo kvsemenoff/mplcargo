@@ -8,6 +8,15 @@
     font-weight: normal;
 }
 @font-face {
+    font-family: "pfagorasanspro-bold";
+    src: url("../fonts/PFAgoraSansPro/pfagorasanspro-bold.eot");
+    src: url("../fonts/PFAgoraSansPro/pfagorasanspro-bold.eot") format("embedded-opentype"),
+    url("../fonts/PFAgoraSansPro/pfagorasanspro-bold.woff") format("woff"),
+    url("../fonts/PFAgoraSansPro/pfagorasanspro-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
     font-family: "plumb-black";
     src: url("../fonts/plumb-black.ttf");
     src: url("../fonts/plumb-black.ttf") format("truetype");
