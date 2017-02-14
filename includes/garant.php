@@ -27,7 +27,7 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-md-12">
-				<button class="button-1 db-garant-button"> Заказать доставку со страховкой</button>
+				<a href="#" class="button-1 db-garant-button"> Заказать доставку со страховкой</a>
 			</div>
 		</div>
 	</div>

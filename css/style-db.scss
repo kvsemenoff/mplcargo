@@ -29,7 +29,80 @@
 	padding: 10px 36px;
 	margin-top: 10px;
 }
+.section__db-vigoda-padding{
+	padding: 35px 0 !important;
+}
 
+.section__db-vigoda-view{
+	background: url("../img/who_bg.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	color:#fff;
+	font-family:"russiamedium";
+}
+
+.db-vigoda-h2{
+	font-size: 34px;
+	color:#fff;
+	font-family:"russiamedium";
+	padding-bottom: 38px;
+}
+
+.db-vigoda-box{
+	border: 2px dashed rgba(#a2a2a2, 0.3);
+	border-radius: 4px;
+	padding: 40px 0;
+	margin-top: 20px ;
+	p{
+		font-size: 19px;
+		padding-top: 28px;	
+	}
+}
+.db-vigoda-button{
+	font-size: 14px;
+	padding: 14px 50px;
+	margin-top: 28px;
+}
+
+
+.db-company-h2{
+	font-size: 34px;
+	font-family:"russiamedium";
+	margin-bottom: 14px;
+}
+.db-company-p{
+	color: #141414;
+	font-family: "pfagorasanspro-reg";
+	font-size: 22px;
+	line-height:25px; 
+}
+.db-company-box{
+	position: relative;
+	background: #fff;
+	z-index: 100;
+	box-shadow: 0 7px 38px rgba(0, 0, 0, 0.07);
+	border-radius: 4px;
+	padding:130px 0 30px 41px;
+	margin-top: 35px;
+	span{
+		background: url("../img/about_logo.png")no-repeat top left;
+		width:167px;
+		height:73px;
+		display: block;
+		position: absolute;
+		top: 20px;
+		left:0;
+	}
+	h2{
+		font-size: 34px;
+		font-family:"russiamedium";
+		margin-bottom: 24px;
+	}
+	color: #141414;
+	font-family: "pfagorasanspro-reg";
+	font-size: 22px;
+	line-height:25px; 
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -40,6 +113,15 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.section__db-company-padding{
+		padding: 50px 0 !important;
+	}
+
+	.section__db-vigoda-padding{
+		padding: 50px 0 53px 0 !important;
+	}
+
+
 	.section__db-garant-padding{
 		padding: 50px 0 !important;
 	}
