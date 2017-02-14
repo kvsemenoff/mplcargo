@@ -93,11 +93,15 @@
 	text-transform: uppercase;
 }
 .dd-slogan{
+	padding-top: 25px;
 	span{
 		display: inline-block;
+		padding-left: 13px;
+		width: 239px;
+		height: 31px;
 		background: url(../img/g.png) no-repeat center; 
 		color: white;
-		font-family: Akrobat;
+		font-family: "acrobat-semibold";
 		font-size: 22px;
 	}
 }
