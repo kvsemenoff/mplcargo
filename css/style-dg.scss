@@ -64,6 +64,85 @@
 	left: 50%;
 	margin-left: -25px;
 }
+.section__help {
+	padding-bottom: 50px;
+}
+h2.help {
+	color: black;
+	font-family: "russiamedium";
+	font-size: 34px;
+	text-align: center;
+	display: block;
+	margin-bottom: 15px;
+}
+.owl__help {
+	background-color: whitesmoke;
+	border: 1px solid #eee;
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.08);
+	padding-top: 35px;
+	padding-bottom: 35px;
+	position: relative;
+}
+.owl-prev, .owl-next {
+	display: block !important;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 10px solid #fff;
+	position: absolute;
+	z-index: 999;
+}
+.owl-prev {
+	background-image:url(/img/btn_prev.png);
+	background-size: cover;
+	left: -25px;
+	top: 30%;
+}
+.owl-next {
+	background-image:url(/img/btn_next.png);
+	background-size: cover;
+	right: -25px;
+	top: 30%;
+}
+.owl-item .help__img-wrap {
+		display: inline-block;
+		img {
+			display: inline-block !important;
+			vertical-align: middle !important;
+		}
+		height: 65px;
+	}
+	.help__img-wrap1{
+		img{
+			width: 100px;
+			height: 22px;
+		}
+	}
+	.help__img-wrap2{
+		img{
+			width: 40px;
+			height: 30px;
+		}
+	}
+	.help__img-wrap3{
+		img{
+			width: 82px;
+			height: 10px;
+		}
+	}
+	.help__img-wrap4{
+		img{
+			width: 80px;
+			height: 30px;
+		}
+	}
+	.help__img-wrap5{
+		img{
+			width: 80px;
+			height: 20px;
+		}
+	}
 @media only screen and (min-width : 320px) {
 }
 
@@ -124,6 +203,10 @@
 		font-size: 20px;
 		margin-bottom: 40px;
 	}
+	.owl__help {
+		width: 710px;
+	}
+	
 }
 
 @media only screen and (min-width : 992px) {
@@ -209,7 +292,59 @@
 		font-size: 34px;
 		line-height: 34px;
 	}
-
+	.owl-item .help__img-wrap {
+		display: inline-block;
+		img {
+			display: inline-block !important;
+			vertical-align: middle !important;
+		}
+		height: 65px;
+	}
+	.help__img-wrap1{
+		img{
+			width: 175px;
+			height: 38px;
+		}
+	}
+	.help__img-wrap2{
+		img{
+			width: 65px;
+			height: 55px;
+		}
+	}
+	.help__img-wrap3{
+		img{
+			width: 140px;
+			height: 18px;
+		}
+	}
+	.help__img-wrap4{
+		img{
+			width: 140px;
+			height: 45px;
+		}
+	}
+	.help__img-wrap5{
+		img{
+			width: 130px;
+			height: 38px;
+		}
+	}
+	.owl-prev, .owl-next {
+		width: 75px;
+		height: 75px;
+		border: 12px solid #fff;
+	}
+	.owl-prev {
+	background:url(/img/btn_prev.png) 0 0 no-repeat;
+	left: -40px;
+	top: 20%;
+}
+.owl-next {
+	background:url(/img/btn_next.png) 0 0 no-repeat;
+	right: -40px;
+	top: 20%;
+}
 }
 
 @media only screen and (min-width : 1248px) {
