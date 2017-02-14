@@ -33,14 +33,14 @@
 						</div>
 						<div class="dd-numbers__box text__center dd-float__left">
 							<div class="dd-tyrkey text__center">
-								<a class="number__style turkey-number" href="#">+90 212 900 89 56</a>
+								<a class="number__style turkey-number tr" href="#">+90 212 900 89 56</a>
 							</div>
 							<div class="dd-italy text__center">
-								<a class="number__style turkey-number" href="#">+88 888 988 89 56</a>
+								<a class="number__style it-number tr" href="#">+88 888 988 89 56</a>
 							</div>
 							<div class="dd-links-h-w">	
-								<a class="dd-links-h" href="#">Турция</a>
-								<a class="dd-links-h" href="#">Италия</a>
+								<a class="dd-links-h dd-links-h1 active" href="#">Турция</a>
+								<a class="dd-links-h dd-links-h2" href="#">Италия</a>
 							</div>
 						</div>	
 						
@@ -54,7 +54,7 @@
 						<span><img src="img/skype_logo.png" alt=""></span>
 					</div>
 					<span class="number__style">+7 921 8914384</span><br>
-					<a class="dd-links-h" href="#">Заказать звонок</a>
+					<a class="dd-links-h" href="#log-in1" name="modal">Заказать звонок</a>
 				</div>	
 				<div class="clearfix"></div>
 				<!-- конец правой части -->
