@@ -1,9 +1,9 @@
 ﻿<?php require_once('includes/header.php'); ?>
 
 <br><br>		
-<a href="#" class="button-1">Заказать звонок</a>	
+<a href="#" class="button-1">Узнать больше о гарантиях</a>	
 <br><br>	
-<h1>Пример заголовка</h1>
+<h2>Пример заголовка</h2>
 <br><br>	
 <form action="#">
 	<input type="text" value="" placeholder="Инпут тайп текст">		
