@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="zakaz__title">Почему заказывают доставку у нас?</h2>
-				<div class="col-md-4 col-sm-4">
+				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="zakaz__item">
 						<span class="heading">За 6 дней вы получаете товар в России</span>
 						<p class="zakaz__text">Груз неизменно приходит вовремя, Ваши конкуренты ждут товар а вы уже продаете и получаете прибыль</p>
@@ -11,7 +11,7 @@
 						<a href="#" class="button-1 button_z button_z1">Получить товар за 6 дней</a>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4">
+				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="zakaz__item">
 						<span class="heading">Стоимость наших услуг
 на 20% ниже</span>
@@ -20,7 +20,7 @@
 						<a href="#" class="button-1 button_z button_z2">Сравнить цены</a>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4">
+				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="zakaz__item">
 						<span class="heading">Гарантия сохранности
 и целостности товара</span>
