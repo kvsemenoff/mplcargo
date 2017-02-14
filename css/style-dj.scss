@@ -39,6 +39,113 @@
 	padding-right: 10px;
 	vertical-align: middle;
 }
+.da-treat{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	box-shadow: 0 0 38px rgba(0, 0, 0, 0.07);
+	padding: 20px;
+}
+.treat-right__title{
+	display: inline-block;
+	color: #141414;
+	font-family: "russiamedium";
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+.treat-right__text{
+	color: black;
+	font-family: "pfagorasanspro-reg";
+	font-size: 12px;
+	line-height: 18px;
+	position: relative;
+}
+.treat-imgbox{
+	padding-top: 7px;
+	//text-align: center;
+	img{
+		display: inline-block;
+		width: 100%;
+		height: auto;
+
+	}
+}
+.treat-left{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.da-fio{
+	display: block;
+	color: black;
+	font-family: "pfagorasanspro-reg";
+	font-size: 19px;
+	margin-top: 25px;
+	margin-bottom: 2px;
+}
+.da-dol{
+	display: block;
+	color: black;
+	font-family: "pfagorasanspro-medium";
+	font-size: 15px;
+}
+.treat-right__text .button-1{
+	margin-top: 75px;
+}
+.singature{
+	position: absolute;
+	right: 0px;
+	bottom: 25px;
+}
+.da-treat-conts{
+	span{
+		display: inline-block;
+		margin-right: 25px;
+	}
+}
+.da-treat-conts__tel{
+	display: inline-block;
+	position: relative;
+	margin-top: 35px;
+	color: #0d0d0d;
+	font-family: "pfagorasanspro-reg";
+	font-size: 15px;
+	
+}
+.da-treat-conts__tel:before{
+	position: absolute;
+	content: "";
+	background: url(../img/whatsapp_logo.png) no-repeat top center;
+	width: 14px;
+	height: 13px;
+	top: -12px;
+	left: 0px;
+
+}
+.da-treat-conts__tel:after{
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	content: "";
+	background: url(../img/viber_logo.png) no-repeat top center;
+	top: -12px;
+	left: 25px;
+	
+}
+.da-treat-conts__notel{
+	position: relative;
+}
+.da-treat-conts__notel:after{
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	content: "";
+	background: url(../img/skype_logo.png) no-repeat top center;
+	top: -12px;
+	left: 0px;
+	
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -46,6 +153,14 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.treat-imgbox{
+		img{
+			width: unset;
+		}
+	}
+	.treat-right__text .button-1{
+		margin-top: 25px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -58,6 +173,18 @@
 	.why_bigtext{
 		width: 80%;
 	}
+	.treat-left{
+		float: left;
+		width: 38%;
+		text-align: left;
+		margin-bottom: 0px;
+
+	}
+	.treat-right{
+		float: left;
+		width: 62%;
+	}
+
 }
 
 @media only screen and (min-width : 1248px) {
