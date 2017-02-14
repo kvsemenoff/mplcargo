@@ -103,6 +103,68 @@
 	font-size: 22px;
 	line-height:25px; 
 }
+
+.section__db-get_view{
+	background: url("../img/sklad_bg.jpg")no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+.db-get-one{
+	margin-top: 20px;
+	position: relative;
+	img{
+		height: 137px;
+		width: 370px;
+	}
+	p{
+		position: absolute;
+		bottom: 30px;
+		left:0;
+		font-size: 20px;
+		color:#fff;
+		font-family:"russiamedium";
+		padding-left: 55px;
+	}
+	.db-italy{
+		display: inline-block;
+		background: url("../img/italy_sklad.png")no-repeat;
+		height: 28px;
+	}
+	.db-fin{
+		display: inline-block;
+		background: url("../img/finland_sklad.png")no-repeat;
+		height: 26px;
+	}
+	.db-turk{
+		display: inline-block;
+		background: url("../img/turkey_sklad.png")no-repeat;
+		height: 28px;
+	}
+}
+.db-get-two{
+	background: #fff;
+	border-radius: 0px 0px 4px 4px;
+	padding: 22px 32px;
+	p{
+		color: #1f1f1f;
+		font-family: "pfagorasanspro-light";
+		font-size: 13px;
+		text-align: left;
+		background: url("../img/map_sign.png")no-repeat top 10px left;
+		padding-left: 40px;	
+	}
+}
+.db-get-two-two{
+	padding-bottom: 40px;
+}
+.db-get-two-three{
+	padding-left: 20px !important;
+}
+.db-get-button{
+	margin-top: 28px;
+	padding: 12px 24px;
+	margin-bottom: 20px;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -113,6 +175,15 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.section__db-get_padding{
+		padding: 60px 0 30px 0 !important; 
+	}
+	.db-get-one{
+		margin-top: unset;
+	}
+	.db-get-button{
+		margin-bottom: unset;
+	}
 	.section__db-company-padding{
 		padding: 50px 0 !important;
 	}
