@@ -48,8 +48,8 @@
 	left:35px;
 	display: block;
 	text-align: center;
-    padding-top: 9px;
-    font-family: "pfagorasanspro-bold";    
+	padding-top: 9px;
+	font-family: "pfagorasanspro-bold";    
 }
 .df-deliveryimg_view{
 	max-width: 367px;
@@ -76,14 +76,14 @@
 	line-height: 16px;
 	display: inline-block;
 	padding-right: 16px;
-    letter-spacing: -0.2px;
-    margin-bottom: 25px;
+	letter-spacing: -0.2px;
+	margin-bottom: 25px;
 }
 
 .button-1df{
 	margin-top: 19px;
-    padding: 17px 30px 11px 30px;
-    letter-spacing: -0.3px;
+	padding: 17px 30px 11px 30px;
+	letter-spacing: -0.3px;
 }
 
 
@@ -109,7 +109,7 @@
 	line-height: 25px;
 	font-family: "pfagorasanspro-reg";
 	margin-bottom: 25px;	
-    letter-spacing: -0.2px;
+	letter-spacing: -0.2px;
 }
 .df-gruzbox_view{
 	max-width: 368px;
@@ -143,21 +143,17 @@
 .df-openbox{
 	font-family: "pfagorasanspro-reg";
 	text-align: left;
-	position: relative;
-	// top:50%;
-	// left:50%;
-	// max-width: 700px;
-	// width: 100%;
+	position: relative;	
 	margin: 0 auto;
 	padding: 35px 20px;
 	border-radius: 20px;
 	ul{
-		list-style-type: circle;
+		list-style-type: inherit;
+		padding-left: 20px;
 		li{
-			list-style-type: circle;
+			font-family: "pfagorasanspro-bold";
 			font-size: 17px;
-			color: #000;	
-			display: block;
+			color: #000;		
 		}
 	}
 }
@@ -165,12 +161,14 @@
 	display: block;
 	font-size: 19px;
 	color: #000;	
+	line-height: 35px;
 }
 
 .dfspan2{
 	display: block;
 	font-size: 19px;
 	color: #000;
+	line-height: 35px;
 }
 
 
@@ -191,25 +189,183 @@
 	height: 100%; 
 	display:none; }
 
-.window{ 
-	display: none;	
-	position: absolute;
-	left:0;  
-	top:15%;
-	z-index:9998;
-	background: white; 	
-	.form-wrap-main{
-		border:1px solid grey;
-		background: #fff;
-		border-radius:10px;
-		padding: 10px;
-	}	
+	.window{ 
+		display: none;	
+		position: absolute;
+		left:0;  
+		top:15%;
+		z-index:9998;
+		background: white; 	
+		.form-wrap-main{
+			border:1px solid grey;
+			background: #fff;
+			border-radius:10px;
+			padding: 10px;
+		}	
+	}
+
+
+
+
+/*===============how============*/
+a:active, a:focus{
+	outline: none;
 }
+input:focus, input:active, select:focus, select:active{
+	outline: none;
+}
+.dfcaphow{
+	font-size: 34px;
+	color: #222121;
+	line-height: 37px;
+	font-family: "russiamedium";
+	margin: 25px 0 25px 0;
+	background-color: transparent;	
+}
+.dfbg1{
+	background-image: url("../img/calc_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	position: relative;
+	.df-container{
+		border: none;
+	}
+}
+.dfarrow{
+	position: absolute;
+	bottom: 107px;
+	left:37%;
+	display: none;
+}
+
+.df-how_view{
+	max-width: 415px;
+	width: 100%;
+	margin-right: 15px;
+	padding: 25px 20px 25px 20px;
+	background-color: #fff;
+	border-radius: 6px;
+	// float: right;
+	margin: 0 auto;
+}
+.dfcaphow2{
+	font-size: 25px;
+	color: #141414;
+	font-family: "pfagorasanspro-reg";
+	margin-bottom: 25px;
+	// margin-left: -5px;
+	letter-spacing: -0.1px;
+}
+.dfform{
+	font-family: "pfagorasanspro-light";
+	font-size: 15px;
+	color: #141414;
+	
+}
+.dfselect-how{
+	// padding: 18px 0 14px 45px;
+	// max-width: 370px;
+	// width: 100%;
+	// background-color: #f8f8f8;
+	// border-radius: 6px;
+	// border: 1px solid #e1e0de;
+	// background-image: url("../img/map_sign.png");
+	// background-repeat: no-repeat;
+	// background-position: left 20px center;
+	// opacity: 0.6;
+}
+.dfhowinp1{
+	padding: 19px 0 16px 45px;
+	max-width: 370px;
+	width: 100%;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	border: 1px solid #e1e0de;
+	margin: 12px 0;
+	background-image: url("../img/box.png");
+	background-repeat: no-repeat;
+	background-position: left 20px center;
+}
+.dfhowinp2{
+	padding: 19px 0 16px 45px;
+	max-width: 370px;
+	width: 100%;
+	background-color: #f8f8f8;
+	border-radius: 6px;
+	border: 1px solid #e1e0de;
+	background-image: url("../img/tel.png");
+	background-repeat: no-repeat;
+	background-position: left 20px center;
+}
+.button-2df{
+	max-width: 372px;
+	width: 100%;
+	border: none;
+	font-size: 10px;
+}
+
+
+///////////////////////
+
+.az-select{    
+	position: relative;
+	cursor: pointer;
+	text-align: left;
+	font-family: "pfagorasanspro-light";
+	select{    
+		// -webkit-appearance: none;
+		// -moz-appearance: none;
+		padding: 18px 0 14px 45px;
+		max-width: 370px;
+		width: 100%;
+		background-color: #f8f8f8;
+		border-radius: 6px;
+		border: 1px solid #e1e0de;
+		background-image: url("../img/map_sign.png");
+		background-repeat: no-repeat;
+		background-position: left 20px center;
+		opacity: 0.7;
+	}
+	select::-ms-expand {
+		display: none;
+	}
+	.az-options{
+		display: none;
+		top: calc(100% + 2px);
+		left: -2px;
+		width: calc(100% + 4px);
+		position: absolute;
+		background: white;
+		z-index: 7;
+	}
+	div[data-val]{    
+		padding-left:50px;
+		line-height: 30px;
+		letter-spacing: 0.02em;
+		cursor: pointer;
+	}
+	div[data-val]:hover{
+		background: rgba(#222121,0.2);   
+	}
+}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+	.button-2df{		
+		font-size: 14px;
+	}
 }
 
 @media only screen and (min-width : 768px) {
@@ -239,6 +395,20 @@
 	.df-gruzcap_view{				
 		padding-left: 19px;	 
 		margin-bottom: 45px;	   
+	}
+
+	/*==========how*/
+	.dfcaphow{
+		font-size: 34px;		
+		margin: 55px 0 45px 0;		
+	}
+	.dfarrow{		
+		display: block;
+	}
+	.df-how_view{		
+		margin-right: 15px;
+		padding: 25px 20px 25px 20px;		
+		float: right;
 	}	
 
 }
