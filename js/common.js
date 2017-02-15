@@ -82,7 +82,12 @@ $(document).ready(function(){
 		$('#mask').hide();
 		$('.window').hide();
 	}); 
+
     $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
+
+    $(".mass").mask("9999?(кг)"); 
+
+
     $(".form1").submit(function() { 
     	var tel = $(this).find('input[name="phone"]');
     	var empty = false;
