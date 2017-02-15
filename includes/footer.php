@@ -8,7 +8,7 @@
 				</div>	
 				<div class="dd-logo-txt dd-float__left_min">
 					<span class="copy">© 2017  ООО «Компания»</span><br>
-					<a class="privacy" href="#">Политика конфиденциальности</a>
+					<a class="privacy" name="modal" href="#log-in8">Политика конфиденциальности</a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
