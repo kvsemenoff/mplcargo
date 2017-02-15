@@ -16,11 +16,12 @@
 	text-align: center;
 }
 .df-deliverycap{
-	color: #141414;
-	font-family: Russia;
-	font-size: 34px;
+	color: #141414;	
+	font-size: 33.6px;
 	margin-bottom: 40px;
 	font-family: "russiamedium";	
+	line-height: 38px;
+    letter-spacing: 0.3px;
 }
 
 
@@ -236,7 +237,7 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 .dfform{
 	font-family: "pfagorasanspro-light";
 	font-size: 15px;
-	color: #141414;
+	color: #82533b;
 	
 }
 
@@ -291,6 +292,7 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 		background-repeat: no-repeat;
 		background-position: left 20px center;
 		opacity: 0.7;
+		color: rgba(#141414, 0.7);
 	}
 	select::-ms-expand {
 		display: none;
@@ -303,15 +305,18 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 		position: absolute;
 		background: white;
 		z-index: 7;
+		color: rgba(#141414, 0.7);
 	}
 	div[data-val]{    
 		padding-left:50px;
 		line-height: 30px;
 		letter-spacing: 0.02em;
 		cursor: pointer;
+		
 	}
 	div[data-val]:hover{
-		background: rgba(#222121,0.2);   
+		
+		background-color: rgba(#82533b,0.2);   
 	}
 }
 
@@ -428,7 +433,7 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 
 	/*==========how*/
 	.dfcaphow{
-		font-size: 34px;		
+		font-size: 33.67px;		
 		margin: 55px 0 45px 0;		
 	}
 	.dfarrow{		
