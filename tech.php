@@ -10,8 +10,9 @@
 
 <form class="common-form" action="#">
 	<input class="input__text input__text__height" type="text" value="" placeholder="Инпут тайп текст">		
-	<input class="submit__view submit__view__padding" type="submit" value="Заказать звонок" placeholder="">		
+	<input data-wow-iteration="infinite" data-wow-duration="2s"  class="wow pulse submit__view submit__view__padding" type="submit" value="Заказать звонок" placeholder="">		
 </form>		
+
 
 
 <?php require_once('includes/footer.php'); ?>
