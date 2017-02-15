@@ -73,7 +73,7 @@
 	<form method="post" class="form1 dfform" action="thanks.php">
 		<input type="text" placeholder="Введите имя" class="dfhowinp1 dfbginput" required> 
 		<input type="text" name="phone" placeholder="Введите номер телефона" class="phone dfhowinp2">	
-		<input type="submit" class="button-1 button-1df button-2df" name="submit" value="Заказать консультацию">
+		<a href="#" target="_blank" class="button-1 button-1df button-2df" name="submit">Заказать консультацию</a>
 		<span class="dfpopuptext">Гарантируем конфидециальность Ваших данных</span>
 	</form>
 </div>
