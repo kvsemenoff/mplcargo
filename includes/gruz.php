@@ -24,7 +24,7 @@
 			</a>		
 			
 		</div>
-		<a href="#log-in3" name="modal" class="button-1 button-1df">Получить удобным способом</a>
+		<a href="#log-in4" name="modal" class="button-1 button-1df">Получить удобным способом</a>
 	</div>
 
 	<div id="mask"></div>
