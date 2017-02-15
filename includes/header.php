@@ -17,14 +17,6 @@
 
 </head>
 <body>
-<<<<<<< HEAD
-
-	<script src="/libs/jquery/jquery-1.11.1.min.js"></script>
-<body>
-=======
-	<script src="/libs/jquery/jquery-1.11.1.min.js"></script>
-<body id="js-head">
->>>>>>> 8d8678cf7c703e0dff01e04eb62ad3225752a31d
 
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>

@@ -144,8 +144,10 @@
 	text-align: left;
 	position: relative;	
 	margin: 0 auto;
-	padding: 35px 20px;
-	border-radius: 7px;
+	border-radius: 5px;
+	max-width: 660px;
+	width: 100%;
+	margin: 0 auto;	
 	ul{
 		list-style-type: inherit;
 		padding-left: 20px;
@@ -155,6 +157,29 @@
 			color: #000;		
 		}
 	}
+}
+.dfpopupimg{
+	text-align: center;
+	width: 100%;
+	height: 185px;
+	margin: 0 auto;
+	position: relative;
+	img{
+		width: 100%;
+	}
+	span{
+		font-family: 'Avenir_Demi', sans-serif;
+		font-size: 36px;
+		color: #fff;
+		display: inline-block;
+		position: absolute;
+		top:70px;
+		left:50%;
+		transform:translate(-50%,0);
+	}
+}
+.df-textpopup{
+	padding:65px 87px 125px 100px;
 }
 .dfspan1{
 	display: block;
@@ -176,6 +201,7 @@
 	top:10px;
 	right: 10px;
 	cursor: pointer;	
+	z-index: 10;
 }
 
 
@@ -303,7 +329,7 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 		left: -2px;
 		width: calc(100% + 4px);
 		position: absolute;
-		background: white;
+		background-color: white;
 		z-index: 7;
 		color: rgba(#141414, 0.7);
 	}
@@ -314,9 +340,8 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 		cursor: pointer;
 		
 	}
-	div[data-val]:hover{
-		
-		background-color: rgba(#82533b,0.2);   
+	div[data-val]:hover{		
+		background-color: rgba(#82533b,0.4);   
 	}
 }
 

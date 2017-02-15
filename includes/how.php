@@ -12,7 +12,7 @@
 			<form method="post" class="form1 dfform" action="thanks.php">
 				<div  class="az-select az-margin-bottom10">
 					<select name="" class="dfselect-how">
-						<option value="1">Тип груза</option>
+						<option value="1">Выберите Тип Груза</option>
 						<option value="2">Одежда</option>
 						<option value="3">Обувь</option>
 						<option value="4">Сумки</option>
@@ -20,7 +20,7 @@
 						<option value="6">Другие товары</option>
 					</select>
 				</div>
-				<input type="text" placeholder="Введите предполагаемый вес (кг)" class="dfhowinp1" required title="Вес в кг"> 
+				<input type="text" placeholder="Введите предполагаемый вес (кг)" name="mass" class="mass dfhowinp1" required title="Вес в кг"> 
 				<input type="text" name="phone" placeholder="Введите номер телефона" class="phone dfhowinp2">
 					<input type="submit" class="button-1 button-1df button-2df" name="submit" value="Получить стоимость бесплатно">
 			</form>
