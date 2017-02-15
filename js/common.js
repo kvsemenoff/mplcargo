@@ -1,81 +1,95 @@
 
 
 $(document).ready(function(){
+   $('.button-1').each(function(){
+        $(this).addClass("wow");
+        $(this).addClass("pulse");
+   });
 
-     $(document).on("scroll", function(){
-            var documentScroll = $(this).scrollTop();
-            if(documentScroll > 600){
-                $('#js-up').css("display", "block");
-            }
-            else{
-                $('#js-up').removeAttr("style");
-            }
-        });
+   $(document).on("scroll", function(){
+    var documentScroll = $(this).scrollTop();
+    if(documentScroll > 600){
+        $('#js-up').css("display", "block");
+    }
+    else{
+        $('#js-up').removeAttr("style");
+    }
+});
+
 
      $('#js-up a').on("click", function(e){
         e.preventDefault();
-        var scrollTopH = $('#js-head').offset().top;
+        var scrollTopH = $('body').offset().top;
         $('html, body').animate({
             scrollTop: scrollTopH
         }, 1500);
      });
 
-    $('.az-select').each(function(){
-        var select = $(this);    
-        var option = select.find('select option');
-        var str = '<div class="az-options">';
-        select.find('option').each(function(){
-            str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>'
-        });
-        str+= '</div>';
-        select.html(select.html() + str);
+   $('#js-up a').on("click", function(e){
+    e.preventDefault();
+    var scrollTopH = $('#js-head').offset().top;
+    $('html, body').animate({
+        scrollTop: scrollTopH
+    }, 1500);
+});
 
-        select.find('select').mousedown(function(){
-            return false;
-        });
-        select.mouseup(function(){
-            select.find('select').focus();
-        });
-        select.find('.az-options div[data-val]').click(function(){
-            select.find('select').val($(this).attr('data-val'));
-        });
-        select.find('select').focusout(function(){
-            if(!select.is(':hover')){
-                select.find('.az-options').slideUp(0);
-                select.removeClass('az-select-focus');
-            }
-        });
+
+   $('.az-select').each(function(){
+    var select = $(this);    
+    var option = select.find('select option');
+    var str = '<div class="az-options">';
+    select.find('option').each(function(){
+        str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>'
     });
+    str+= '</div>';
+    select.html(select.html() + str);
 
-    $(".az-select").click(function(){
-        $(this).find('.az-options').slideToggle(0);
-        $(this).toggleClass('az-select-focus');
+    select.find('select').mousedown(function(){
+        return false;
     });
-
-    $('a[name=modal]').click(function(e) {
-        e.preventDefault();
-        var id = $(this).attr('href');
-        var maskHeight = $(document).height();
-        var maskWidth = $(window).width();
-        $('#mask').css({'width':maskWidth,'height':maskHeight});
-        $('#mask').fadeTo("slow",0.8); 
-        var winH = $(window).height();
-        var winW = $(window).width();
-        posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
-        $(id).css('top',  posTop+50);
-        $(id).css('left', winW/2-$(id).width()/2);
-        $(id).fadeIn(500); 
+    select.mouseup(function(){
+        select.find('select').focus();
     });
-    $('.window .dd-close').click(function (e) {
-        e.preventDefault();
-        $('#mask, .window').hide();
-        $('.window').hide();
-    }); 
+    select.find('.az-options div[data-val]').click(function(){
+        select.find('select').val($(this).attr('data-val'));
+    });
+    select.find('select').focusout(function(){
+        if(!select.is(':hover')){
+            select.find('.az-options').slideUp(0);
+            select.removeClass('az-select-focus');
+        }
+    });
+});
 
-    $('#mask, .an-exit__krest').click(function () {
-        $('#mask').hide();
-        $('.window').hide();
-    }); 
+   $(".az-select").click(function(){
+    $(this).find('.az-options').slideToggle(0);
+    $(this).toggleClass('az-select-focus');
+});
+
+   $('a[name=modal]').click(function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+    var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
+    $('#mask').css({'width':maskWidth,'height':maskHeight});
+    $('#mask').fadeTo("slow",0.8); 
+    var winH = $(window).height();
+    var winW = $(window).width();
+    posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
+    $(id).css('top',  posTop+50);
+    $(id).css('left', winW/2-$(id).width()/2);
+    $(id).fadeIn(500); 
+});
+   $('.window .dd-close').click(function (e) {
+    e.preventDefault();
+    $('#mask, .window').hide();
+    $('.window').hide();
+}); 
+
+   $('#mask, .an-exit__krest').click(function () {
+    $('#mask').hide();
+    $('.window').hide();
+}); 
     // $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
     $(".form1").submit(function() { 
         var tel = $(this).find('input[name="phone"]');
@@ -106,6 +120,6 @@ $(document).ready(function(){
         // $('a[href=#thanks]').trigger('click');
         location = "spasibo.php";
     };
- });
+});
 
 
