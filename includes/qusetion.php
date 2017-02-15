@@ -9,7 +9,7 @@
 					<div class="db-question-box-one-one">
 						<p>
 							Звоните по телефону<br>
-							<span>+7 800 221 33 18</span>
+							<span>+7 800 350 02 05</span>
 						</p>
 					</div>
 					<div class="db-question-box-one-two">
