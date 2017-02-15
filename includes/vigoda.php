@@ -26,7 +26,7 @@
 						<div class="clearfix"></div>
 					</div>
 					<div class="col-md-12">
-						<a href="#log-in5" name="modal" class="button-1 db-vigoda-button">обсудить условия сотрудничества</a>		
+						<a href="#log-in9" name="modal" class="button-1 db-vigoda-button">обсудить условия сотрудничества</a>		
 					</div>
 				</div>
 			</div>

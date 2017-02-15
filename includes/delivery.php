@@ -22,6 +22,6 @@
 				</div>
 			
 		</div>
-		<a href="#log-in2" name="modal" class="button-1 button-1df">Расчитать стоимости доставки</a>
+		<a href="#log-in3" name="modal" class="button-1 button-1df">Расчитать стоимости доставки</a>
 	</div>
 </section>

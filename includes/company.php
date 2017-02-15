@@ -5,7 +5,7 @@
 				<h2 class="db-company-h2">О компании</h2>
 				<p class="db-company-p">Компания MLP Cargo успешно развивается на рынке международных перевозок с 2008 года. Мы знаем все<br> нюансы по доставке одежды, текстиля и сумок. Сотрудничая с нами, вы получаете качественный сервис по цене<br> на 20% дешевле. Мы Одни из немногих перевозчиков которые соответсвуют стандартам концепции «Just in Time <br> Delivery»</p>
 			</div>
-			<div class="col-md-6"><img src="img/map_russia.jpg" alt="img" class="img-responsive"></div>
+			<div class="col-md-6"><img src="img/map_russia.jpg" alt="img" class="db-company-img"></div>
 			<div class="col-md-6">
 				<div class="db-company-box">
 					<span></span>
