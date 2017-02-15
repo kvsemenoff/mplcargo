@@ -80,7 +80,7 @@
 					<p>— повысьте товарооборот своего магазина на 30% благодаря быстрому и предсказуемому поступлению Нового товара Из Турции</p>
 				</div>
 				<div class="dd-button-header-wrap">
-					<a class="button-1 button-1__padding" href="#">Заказать бесплатную консультацию</a>
+					<a class="button-1 button-1__padding" name="modal" href="#log-in1">Заказать бесплатную консультацию</a>
 				</div>
 			</div><!-- dd-main-header-wrap -->
 			

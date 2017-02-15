@@ -174,11 +174,95 @@
 .dd-italy{
 	display:none;
 }
+
+/* Слайдер
+===============================*/
+.section__slider{
+	background:url(../img/otziv_bg.jpg) no-repeat top center; 
+	width: 100%;
+	background-size: cover;
+	padding: 52px 5px 38px;
+}
+.dd-slide__testemonials{
+	.item{
+		padding-top: 29px;
+		padding-right: 5px;
+		padding-left: 5px;
+		min-height: 283px;
+	}
+	.dd-left{
+		position:absolute;
+		top:50%;
+		transform: translate(0,-50%);
+		// left:-50px;
+		width: 51px;
+		height: 51px;
+		background:url(../img/otziv_prev.png) no-repeat; 
+		display: none;
+	}
+	.dd-right{
+		position:absolute;
+		top:50%;
+		transform: translate(0,-50%);
+		right:0px;
+		width: 51px;
+		height: 51px;
+		background:url(../img/otziv_next.png) no-repeat; 
+		display: none;
+	}
+}
+.item__box{
+	padding: 54px 33px 18px;
+	min-height: 269px;
+	background: #fff;
+	border-radius: 4px;
+	position:relative;
+	.dd-img-box{
+		width: 73px;
+		height: 73px;
+		position:absolute;
+		top:-28px;
+	}
+	span{
+		color: black;
+		font-family: "pfagorasanspro-light";
+		font-size: 12px;
+		font-weight: 300;
+		font-style: italic;
+	}
+}
+.item__box__element{
+	padding-bottom: 13px;
+	border-bottom:1px solid #E5E5E5;
+	margin-bottom: 13px;
+	p{
+		color: black;
+		font-family: "pfagorasanspro-reg";
+		font-size: 13px;
+	}
+	p:first-child{
+		margin-bottom: 15px;
+	}
+}
+
+
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
-
+	.dd-slide__testemonials{
+		.dd-left{
+			display: block;
+			left:-25px;
+		}
+		.dd-right{
+			display: block;
+			right:-25px;
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
@@ -189,9 +273,26 @@
 		text-align:left;
 		font-size: 46px;
 	}
+	.dd-slide__testemonials{
+		.dd-left{
+			left:-50px;
+		}
+		.dd-right{
+			right:-50px;
+		}
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-slide__testemonials{
+		.item{
+			padding-left: 15px;
+			padding-right: 15px;
+			// margin-left: 20px;
+		}
+	}
+	//конец слайдер
+
 	.logo-diz{
 		width: 150px;
 		padding-left: 52px;
@@ -199,6 +300,7 @@
 	.section__header{
 		background: url(../img/bigh.jpg) no-repeat top center;
 		height: 576px;
+		background-size: cover;
 	}
 	.dd-main-header-wrap{
 		width: 432px;
