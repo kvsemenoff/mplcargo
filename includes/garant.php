@@ -22,12 +22,12 @@
 				<img src="img/standard.png" alt="img">
 				<p class="db-garant-p">
 					<span>На рынке с 2008 года</span><br>
-					9 лет успешной работы. На своем пути преодолели много кризисов. Понимаем и учитываем все нюансы примеждународной доставке.
+					9 лет успешной работы. На своем пути преодолели много кризисов. Понимаем и учитываем все нюансы при международной доставке.
 				</p>
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-md-12">
-				<a href="#log-in6" name="modal" class="button-1 db-garant-button"> Заказать доставку со страховкой</a>
+				<a href="#log-in8" name="modal" class="button-1 db-garant-button"> Заказать доставку со страховкой</a>
 			</div>
 		</div>
 	</div>

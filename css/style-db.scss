@@ -150,19 +150,24 @@
 		font-family: "pfagorasanspro-light";
 		font-size: 13px;
 		text-align: left;
-		background: url("../img/map_sign.png")no-repeat top 10px left;
-		padding-left: 40px;	
+		padding-left: 40px;
+		position: relative;
+		a{
+			position: absolute;
+			top:11px;
+			left:0;
+		}	
 	}
 }
 .db-get-two-two{
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 .db-get-two-three{
 	padding-left: 20px !important;
 }
 .db-get-button{
 	margin-top: 28px;
-	padding: 12px 24px;
+	padding: 12px 30px;
 	margin-bottom: 20px;
 }
 
@@ -265,6 +270,28 @@
 .db-up{
 	display: none;
 }
+.section__db-company-padding{
+		padding: 20px 0 !important;
+	}
+	.db-company-img{
+		max-width: 320px;
+		width:100%;
+		margin: 0 auto;
+		margin-top: 20px;
+		display: block;
+	}
+	.two{
+		padding-top: 10px;
+	}
+	.three{
+		padding-top: 8px;
+	}
+	.db-get-two-one-db{
+		padding-bottom: 25px;
+	}
+	.get3{
+		padding-bottom: 16px;
+	}
 @media only screen and (min-width : 320px) {
 }
 
@@ -293,6 +320,12 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.db-company-img{
+		max-width: unset;
+		width:unset;
+		margin-top: unset;
+		display: unset;
+	}
 
 	.db-question-box-one{
 		width:unset;
@@ -326,7 +359,7 @@
 		margin-bottom: unset;
 	}
 	.section__db-company-padding{
-		padding: 50px 0 !important;
+		padding: 48px 0 0 0!important;
 	}
 
 	.section__db-vigoda-padding{
@@ -341,7 +374,7 @@
 		padding-bottom: 0;
 	}
 	.db-garant-button{
-		padding: 18px 36px;
+		padding: 18px 26px;
 	}
 }
 
