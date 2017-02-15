@@ -1,6 +1,6 @@
 <section class="section section__padding df-center">
 	<div class="container">
-		<h2 class="dfcaphow">Узнайте сколько вы экономите с каждой отправки через нашу компанию</h2>
+		<h2 class="dfcaphow">Узнайте сколько вы экономите с каждой отправки через MLP Cargo</h2>
 	</div>
 </section>
 
@@ -20,7 +20,7 @@
 						<option value="6">Другие товары</option>
 					</select>
 				</div>
-				<input type="text" placeholder="Введите предполагаемый вес (кг)" class="dfhowinp1" required> 
+				<input type="text" placeholder="Введите предполагаемый вес (кг)" class="dfhowinp1" required title="Вес в кг"> 
 				<input type="text" name="phone" placeholder="Введите номер телефона" class="phone dfhowinp2">
 					<input type="submit" class="button-1 button-1df button-2df" name="submit" value="Получить стоимость бесплатно">
 			</form>
