@@ -10,7 +10,7 @@
 
 <form class="common-form" action="#">
 	<input class="input__text input__text__height" type="text" value="" placeholder="Инпут тайп текст">		
-	<input class="submit__view submit__view__padding" type="submit" value="Заказать звонок" placeholder="">		
+	<input class="wow pulse data-wow-iteration=10 submit__view submit__view__padding" type="submit" value="Заказать звонок" placeholder="">		
 </form>		
 
 
