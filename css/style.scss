@@ -16,7 +16,11 @@
 .center{
 	text-align: center;
 }
-
+html,body{
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+}
 //Заголовок
 h2{
 	font-size: 30px;
