@@ -354,11 +354,12 @@
 
 @media only screen and (min-width : 1248px) {
 
-	// .dd-bl{
-	// 	display: block;
-	// 	position: absolute;
-	// 	bottom:0;
-	// }
+	.dd-bl{
+		display: block;
+		position: absolute;
+		bottom: -17px;
+		left:55px;
+	}
 	.dd-slogan{
 		text-align: left;
 	}
@@ -374,7 +375,7 @@
 	}
 	.section__header{
 		background: url(../img/bb2.jpg) no-repeat top center;
-		height: 900px;
+		// height: 900px;
 		background-size: unset;
 	}
 	.dd-main-header-wrap{
