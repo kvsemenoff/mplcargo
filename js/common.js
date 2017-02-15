@@ -76,7 +76,7 @@ $(document).ready(function(){
         $('#mask').hide();
         $('.window').hide();
     }); 
-    $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
+    // $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
     $(".form1").submit(function() { 
         var tel = $(this).find('input[name="phone"]');
         var empty = false;
@@ -106,10 +106,6 @@ $(document).ready(function(){
         // $('a[href=#thanks]').trigger('click');
         location = "spasibo.php";
     };
-
-
-
-
  });
 
 

@@ -1,3 +1,6 @@
+.owl__help .owl-item {
+	text-align: center;
+}
 .zakaz {
 	padding-top: 25px;
 	padding-bottom: 35px;
@@ -64,6 +67,93 @@
 	left: 50%;
 	margin-left: -25px;
 }
+.section__help {
+	padding-bottom: 50px;
+}
+h2.help {
+	color: black;
+	font-family: "russiamedium";
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	margin-bottom: 15px;
+}
+.owl__help {
+	background-color: whitesmoke;
+	border: 1px solid #eee;
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.08);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+}
+.owl-item .help__img-wrap {
+	display: block;
+	position: relative;
+	margin: auto;
+	height: 40px;
+	img {
+		position: absolute;
+		top: 50%;
+	}
+}
+.owl-prev, .owl-next {
+	display: block !important;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 10px solid #fff;
+	position: absolute;
+	z-index: 999;
+}
+.owl-prev {
+	background-image:url(/img/btn_prev.png);
+	background-size: cover;
+	left: -25px;
+	top: 16%;
+}
+.owl-next {
+	background-image:url(/img/btn_next.png);
+	background-size: cover;
+	right: -25px;
+	top: 16%;
+}
+
+	.help__img-wrap1{
+		width: 100px;
+		img{
+			height: 22px;
+			margin-top: -11px;
+		}
+	}
+	.help__img-wrap2{
+		width: 40px;
+		img{
+			height: 30px;
+			margin-top: -15px;
+		}
+	}
+	.help__img-wrap3{
+		width: 82px;
+		img{
+			height: 10px;
+			margin-top: -5px;
+		}
+	}
+	.help__img-wrap4{
+		width: 80px;
+		img{
+			height: 30px;
+			margin-top: -15px;
+		}
+	}
+	.help__img-wrap5{
+		width: 80px;
+		img{
+			height: 20px;
+			margin-top: -10px;
+		}
+	}
 @media only screen and (min-width : 320px) {
 }
 
@@ -124,6 +214,52 @@
 		font-size: 20px;
 		margin-bottom: 40px;
 	}
+	.owl__help {
+		width: 710px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.owl-prev, .owl-next {
+		top: 12%;
+	}
+	.owl-item .help__img-wrap {
+		height: 35px;
+	}
+	.help__img-wrap1{
+		width: 105px;
+		img{
+			height: 22px;
+			margin-top: -11px;
+		}
+	}
+	.help__img-wrap2{
+		width: 38px;
+		img{
+			height: 32px;
+			margin-top: -16px;
+		}
+	}
+	.help__img-wrap3{
+		width: 82px;
+		img{
+			height: 10px;
+			margin-top: -5px;
+		}
+	}
+	.help__img-wrap4{
+		width: 84px;
+		img{
+			height: 30px;
+			margin-top: -15px;
+		}
+	}
+	.help__img-wrap5{
+		width: 80px;	
+		img{
+			height: 20px;
+			margin-top: -10px;
+		}
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -167,6 +303,52 @@
 		top: -32px;
 		margin-left: -23px;
 	}
+	.owl__help {
+		width: 940px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.owl-prev, .owl-next {
+		top: 22%;
+	}
+	.help__img-wrap1{
+		width: 140px;
+		img{
+			height: 30px;
+			margin-top: -15px;
+		}
+	}
+	.help__img-wrap2{
+		width: 50px;
+		img{
+			height: 45px;
+			margin-top: -22px;
+		}
+	}
+	.help__img-wrap3{
+		width: 115px;
+		img{
+			height: 14px;
+			margin-top: -7px;
+		}
+	}
+	.help__img-wrap4{
+		width: 115px;
+		img{
+			height: 40px;
+			margin-top: -20px;
+		}
+	}
+	.help__img-wrap5{
+		width: 115px;	
+		img{
+			height: 32px;
+			margin-top: -16px;
+		}
+	}
+	h2.help {
+		font-size: 24px;
+	}
 }
 
 @media only screen and (min-width : 1170px) {
@@ -209,7 +391,77 @@
 		font-size: 34px;
 		line-height: 34px;
 	}
-
+	.owl-prev, .owl-next {
+		top: 30%;
+	}
+	.owl__help .owl-item {
+		text-align: justify;
+	}
+	.owl-item .help__img-wrap {
+		display: block;
+		height: 65px;
+		margin: auto;
+	}
+	.help__img-wrap1{
+		width: 175px;
+		img{
+			height: 38px;
+			margin-top: -19px;
+		}
+	}
+	.help__img-wrap2{
+		width: 65px;
+		text-align: center;
+		img{
+			height: 55px;
+			margin-top: -28px;
+		}
+	}
+	.help__img-wrap3{
+		width: 140px;
+		img{
+			height: 18px;
+			margin-top: -9px;
+		}
+	}
+	.help__img-wrap4{
+		width: 140px;
+		img{
+			height: 45px;
+			margin-top: -22px;
+		}
+	}
+	.help__img-wrap5{
+		width: 130px;	
+		img{
+			height: 38px;
+			margin-top: -19px;
+		}
+	}
+	.owl-prev, .owl-next {
+		width: 75px;
+		height: 75px;
+		border: 12px solid #fff;
+	}
+	.owl-prev {
+		background:url(/img/btn_prev.png) 0 0 no-repeat;
+		left: -40px;
+		top: 20%;
+	}
+	.owl-next {
+		background:url(/img/btn_next.png) 0 0 no-repeat;
+		right: -40px;
+		top: 20%;
+	}
+	.owl__help {
+		width: 1140px;
+	}
+	h2.help {
+		font-size: 32px;
+	}
+	.owl-item .help__img-wrap {
+		height: 65px;
+	}
 }
 
 @media only screen and (min-width : 1248px) {

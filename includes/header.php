@@ -16,6 +16,8 @@
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
+<body>
+	<script src="/libs/jquery/jquery-1.11.1.min.js"></script>
 <body id="js-head">
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
@@ -30,6 +32,7 @@
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/main.js"></script>
 	<script src="js/common.js"></script>
 	<div class="db-up" id="js-up">
 		<a href="#"><img src="img/btn_top.png" alt="img"></a>
