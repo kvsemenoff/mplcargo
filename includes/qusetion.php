@@ -15,7 +15,7 @@
 					<div class="db-question-box-one-two">
 						<p>
 							Пишите на почту<br>
-							<span>mail@website.ru</span>
+							<span>info@mlpcargo.ru</span>
 						</p>
 					</div>
 					<div class="clearfix"></div>
