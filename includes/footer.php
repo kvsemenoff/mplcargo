@@ -29,15 +29,15 @@
 						<span class="rus-number">8 800 350 02 05</span>
 					</div>
 					<div class="dd-numbers__box text__center dd-float__left">
-						<div class="dd-tyrkey text__center">
-							<a class="number__style turkey-number tr" href="#">+90 212 900 89 56</a>
+						<div class="dd-tyrkey text__center tab__box" id="tab1">
+							<a class="number__style turkey-number tr" href="#" >+90 212 900 89 56</a>
 						</div>
-						<div class="dd-italy text__center">
+						<div class="dd-italy text__center tab__box" id="tab2">
 							<a class="number__style it-number tr" href="#">+88 888 988 89 56</a>
 						</div>
-						<div class="dd-links-h-w">	
-							<a class="dd-links-h dd-links-h1 active" href="#">Турция</a>
-							<a class="dd-links-h dd-links-h2" href="#">Италия</a>
+						<div class="dd-links-h-w tab">	
+							<a class="dd-links-h dd-links-h1 active" href="#tab1">Турция</a>
+							<a class="dd-links-h dd-links-h2" href="#tab2">Италия</a>
 						</div>
 					</div>	
 
@@ -60,28 +60,48 @@
 </section>
 
 <script>
-	$('.dd-tyrkey').click(function(e){
-		e.preventDefault();		
-		$('.dd-italy').each(function(){
-			if ($(this).css('display') == 'inline-block' ){
-				$(this).css("display","none");
-				$(this).prev(".dd-tyrkey").show();
-			}
-		});
-		$(this).css("display","none");
-		$(this).next('.dd-italy').css("display","inline-block");
-		$('.dd-links-h1').removeClass('active');
-		$('.dd-links-h2').addClass('active');
-		// $('.dd-links-h1').css({
-		// 	"color" : "#B1AFAF",
-		// 	"text-decoration" : "unset"
-		// });	
+	// $('.dd-tyrkey').click(function(e){
+	// 	e.preventDefault();		
+	// 	$('.dd-italy').each(function(){
+	// 		if ($(this).css('display') == 'inline-block' ){
+	// 			$(this).css("display","none");
+	// 			$(this).prev(".dd-tyrkey").show();
+	// 		}
+	// 	});
+	// 	$(this).css("display","none");
+	// 	$(this).next('.dd-italy').css("display","inline-block");
+	// 	$('.dd-links-h1').removeClass('active');
+	// 	$('.dd-links-h2').addClass('active');
+	// });
+	// $('.dd-italy').click(function(e){	
+	// 	e.preventDefault();			
+	// 	$(this).css("display","none");
+	// 	$(this).prev('.dd-tyrkey').css("display","inline-block");
+	// 	$('.dd-links-h2').removeClass('active');
+	// 	$('.dd-links-h1').addClass('active');		
+	// });
+
+	$('.tab a').click(function(e) {
+		
+		e.preventDefault();
+		$('a').removeClass('active');
+		$(this).addClass('active');
+		var tab = $(this).attr('href');
+		$('.tab__box').not(tab).css({'display':'none'});
+		$(tab).fadeIn(400);       
+
 	});
-	$('.dd-italy').click(function(e){	
-		e.preventDefault();			
-		$(this).css("display","none");
-		$(this).prev('.dd-tyrkey').css("display","inline-block");
-		$('.dd-links-h2').removeClass('active');
-		$('.dd-links-h1').addClass('active');		
+	$('.tab a:first').click();
+
+	$('.tab2 a').click(function(e) {
+		
+		e.preventDefault();
+		$('a').removeClass('active2');
+		$(this).addClass('active2');
+		var tab = $(this).attr('href');
+		$('.tab__box2').not(tab).css({'display':'none'});
+		$(tab).fadeIn(400);       
+
 	});
+	$('.tab2 a:first').click();
 </script>
