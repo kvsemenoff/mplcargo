@@ -179,19 +179,21 @@
 }
 
 .db-question-box{
-	max-width: 612px;
+	max-width: 320px;
 	width: 100%;
 	margin:0 auto;
 }
 .db-question-box-one{
 	border-bottom:1px solid whitesmoke;
 	padding-bottom: 14px;
+	width:295px;
+	margin: 0 auto;
 }
 .db-question-box-one-one{
 	background-color: whitesmoke;
 	width: 295px;
-	float: left;
 	padding: 22px 22px;
+	margin-bottom: 20px;
 	p{
 		background: url("../img/green_tel.png")no-repeat top left;
 		color: #000;
@@ -209,9 +211,7 @@
 .db-question-box-one-two{
 	background-color: whitesmoke;
 	width: 295px;
-	float: left;
 	padding: 22px 22px;
-	margin-left: 22px;
 	p{	
 		background: url("../img/green_mail.png") no-repeat top left;
 		color: #000;
@@ -250,11 +250,20 @@
 }
 .db-question-box-two-two{
 	float: left;
+	margin-top: 20px;
 	input[type="submit"]{
 		margin-left: 23px;
 		padding-right:64px;
 		padding-left:64px; 
 	}
+}
+.db-get-all-box{
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+.db-up{
+	display: none;
 }
 @media only screen and (min-width : 320px) {
 }
@@ -263,11 +272,50 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.db-up{
+		position: fixed;
+		z-index: 1000;
+		top:600px;
+		right:0;
+		text-align: center;
+		opacity: 0.3;
+		color: #000;
+		font-family: "pfagorasanspro-reg";
+		font-size: 13px;
+		width:150px;
+		display: none;
+	}
+	.db-up:hover{
+		opacity: 1;
+		font-weight: bold;
+		transition:0.5s;
+	}
 }
 
 @media only screen and (min-width : 992px) {
 
-
+	.db-question-box-one{
+		width:unset;
+	}
+	.db-question-box{
+		max-width: 630px;
+		width: unset;
+	}
+	.db-question-box-two-two{
+		margin-top: unset;
+	}
+	.db-question-box-one-one{
+		float: left;
+		margin-bottom: unset;
+	}
+	.db-question-box-one-two{
+		float: left;
+		margin-left: 20px;
+	}
+	.db-get-all-box{
+		max-width: unset;
+		width: unset;
+	}
 	.section__db-get_padding{
 		padding: 60px 0 30px 0 !important; 
 	}
