@@ -24,7 +24,7 @@
 					<h2>Или оставьте номер, мы перезвоним</h2>
 					<form action="#" method="post">
 						<div class="db-question-box-two-one">
-							<input type="text" name="phone" placeholder="Введите телефон" class="input__text__height  input__text">
+							<input type="text" name="phone" placeholder="Введите телефон" class="input__text__height  input__text phone">
 						</div>
 						<div class="db-question-box-two-two">
 							<input type="submit" name="submit" value="Заказать звонок" class="submit__view submit__view__padding">
