@@ -12,7 +12,7 @@
 			<form method="post" class="form1 dfform" action="thanks.php">
 				<div  class="az-select az-margin-bottom10">
 					<select name="" class="dfselect-how">
-						<option value="1">Тип груза</option>
+						<option value="1">Выберите Тип Груза</option>
 						<option value="2">Одежда</option>
 						<option value="3">Обувь</option>
 						<option value="4">Сумки</option>
