@@ -4,7 +4,8 @@
 .zakaz {
 	padding-top: 25px;
 	padding-bottom: 35px;
-	background: url(/img/why_bg.jpg) 0 0 no-repeat;
+	background-image: url(/img/why_bg.jpg);
+	background-size: cover;
 }
 .zakaz__title {
 	color: white;
