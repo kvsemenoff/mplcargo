@@ -14,7 +14,7 @@ $(document).ready(function(){
 
      $('#js-up a').on("click", function(e){
         e.preventDefault();
-        var scrollTopH = $('#js-head').offset().top;
+        var scrollTopH = $('body').offset().top;
         $('html, body').animate({
             scrollTop: scrollTopH
         }, 1500);
