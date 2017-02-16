@@ -1,5 +1,8 @@
 <section class="section section__padding section__slider">
 	<div class="container">
+		<div class="dd-title-slide">
+			<span>Отзывы наших клиентов</span>
+		</div>
 		<div class="dd-slide__testemonials">
 			<div class="item">
 				<div class="item__box">
@@ -45,6 +48,9 @@
 					<span>Кристина, бутик MILANO, Новокузнецк</span>
 				</div>
 			</div>
+		</div>
+		<div class="button-slide">
+			<a class="button-1" name="modal" href="#log-in12">Расчитать стоимость доставки</a>
 		</div>
 	</div>
 </section>
