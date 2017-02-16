@@ -1,10 +1,8 @@
 
 
 $(document).ready(function(){
-	$('.button-1').each(function(){
-		$(this).addClass("wow");
-		$(this).addClass("pulse");
-	});
+
+	
 
 	$(document).on("scroll", function(){
 		var documentScroll = $(this).scrollTop();
@@ -67,9 +65,9 @@ $(document).ready(function(){
 		$('#mask').fadeTo("slow",0.8); 
 		var winH = $(window).height();
 		var winW = $(window).width();
-		posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
+		var posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
 		$(id).css('top',  posTop);
-		$(id).css('left', winW/2-$(id).width()/2);
+		// $(id).css('left', winW/2-$(id).width()/2);
 		$('html, body').css("overflow-y", "hidden");
 		$(id).fadeIn(500); 
 	});
@@ -123,20 +121,26 @@ $(document).ready(function(){
 
 
 
- //    $('a[name=modal2]').click(function(e) {
-	// 	e.preventDefault();
-	// 	var id = $(this).attr('href');
-	// 	var maskHeight = $(document).height();
-	// 	var maskWidth = $(window).width();
-	// 	$('#mask').css({'width':maskWidth,'height':maskHeight});
-	// 	$('#mask').fadeTo("slow",0.8); 
-	// 	var winH = $(window).height();
-	// 	var winW = $(window).width();
-	// 	posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
-	// 	$(id).css('top',  posTop+50);
-	// 	$(id).css('left', winW/2-$(id).width()/2);		
-	// 	$(id).fadeIn(500); 
-	// });
+    $('a[name=modal2]').click(function(e) {
+		e.preventDefault();
+		var id = $(this).attr('href');
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		$('#mask').fadeTo("slow",0.8); 
+		var winH = $(window).height();
+		var winW = $(window).width();
+		posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
+		$(id).css('top',  posTop+50);
+		$(id).css('left', winW/2-$(id).width()/2);		
+		$(id).fadeIn(500); 
+	});
+
+
+	$('.button-1').each(function(){
+		$(this).addClass("wow");
+		$(this).addClass("pulse");
+	});
 });
 
 
