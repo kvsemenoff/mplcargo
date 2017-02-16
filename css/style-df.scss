@@ -336,10 +336,9 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 	}
 	div[data-val]{    
 		padding-left:50px;
-		line-height: 30px;
+		line-height: 35px;
 		letter-spacing: 0.02em;
-		cursor: pointer;
-		
+		cursor: pointer;		
 	}
 	div[data-val]:hover{		
 		background-color: rgba(#82533b,0.4);   
