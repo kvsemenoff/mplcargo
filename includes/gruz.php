@@ -4,19 +4,19 @@
 			<h3 class="df-deliverycap df-gruzcap1">Отправляем груз по России</h3>
 			<h4 class="df-gruzcap df-gruzcap_view">Получаете груз где бы вы ни находились, быстрее и <br> на 20% дешевле чем у конкурентов</h4>
 
-			<a href="#log1" name="modal">
+			<a href="#log1" name="modal2">
 			<div class="df-gruzbox df-gruzbox_view">
 				<div class="df-gruzimg df-gruzimg_view"><img src="img/microbus.png" alt="" class="img-responsive"></div>
 				<span class="df-gruztxt df-gruztxt_view">Автотранспорт</span>				
 			</div>
 			</a>
-			<a href="#log2" name="modal">
+			<a href="#log2" name="modal2">
 			<div class="df-gruzbox df-gruzbox_view">
 				<div class="df-gruzimg df-gruzimg_view"><img src="img/plane.png" alt="" class="img-responsive"></div>
 				<span class="df-gruztxt df-gruztxt_view">Самолет</span>				
 			</div>
 			</a>
-			<a href="#log3" name="modal">
+			<a href="#log3" name="modal2">
 			<div class="df-gruzbox df-gruzbox_view">
 				<div class="df-gruzimg df-gruzimg_view"><img src="img/bus.png" alt="" class="img-responsive"></div>
 				<span class="df-gruztxt df-gruztxt_view">Автобус</span>				

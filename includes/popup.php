@@ -122,7 +122,7 @@
 		<span class="dfpopuptext">Гарантируем конфидециальность Ваших данных</span>
 	</form>
 </div>
-<div class="df-popup window" id="log-in11">
+<div class="df-popup window" id="log-in12">
 	<div class="dd-close"><img src="img/df-close.png" alt=""></div>
 	<h3 class="df-deliverycap df-gruzcap1">Бесплатно получите рассчет стоимости доставки</h3>	
 	<h4 class="df-gruzcap df-gruzcap_view">и мы свяжемся с вами в ближайшее время.</h4>

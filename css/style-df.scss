@@ -94,7 +94,7 @@
 }
 .df-center{
 	text-align: center;	
-	padding: 0 10px;
+	padding: 0 10px;	
 }
 .df-gruz_view{
 	position: relative;
@@ -147,7 +147,7 @@
 	border-radius: 5px;
 	max-width: 660px;
 	width: 100%;
-	margin: 0 auto;	
+	margin: 0 auto;		
 	ul{
 		list-style-type: inherit;
 		padding-left: 20px;
@@ -166,6 +166,7 @@
 	position: relative;
 	img{
 		width: 100%;
+		height: 100%;
 	}
 	span{
 		font-family: 'Avenir_Demi', sans-serif;
@@ -179,7 +180,7 @@
 	}
 }
 .df-textpopup{
-	padding:65px 87px 125px 100px;
+	padding:25px 20px 25px 20px;
 }
 .dfspan1{
 	display: block;
@@ -354,7 +355,8 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 .df-popup{
 	text-align: center;
 	background-color: white;
-	padding: 35px 10px 35px 10px;
+	// padding: 35px 10px 35px 10px;
+	padding: 155px 10px 180px 10px;	
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -409,7 +411,7 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 	display: none;	
 	position: absolute;
 	left:0;  
-	top:15%;
+	// top:15%;
 	z-index:9998;
 	background: white; 	
 	.form-wrap-main{
@@ -425,7 +427,7 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 @media only screen and (min-width : 480px) {
 	.button-2df{		
 		font-size: 14px;
-	}
+	}	
 }
 
 @media only screen and (min-width : 768px) {
@@ -474,6 +476,9 @@ input:focus, input:active, select:focus, select:active, textarea:focus, textarea
 	/*======popup*/	
 	.df-popup{
 		padding: 155px 0px 180px 0px;
+	}
+	.df-textpopup{
+		padding:65px 87px 125px 100px;
 	}
 }
 
