@@ -87,7 +87,7 @@
 				</div>
 
 				<div class="dd-button-header-wrap">
-					<a class="button-1 button-1__padding" name="modal" href="#log-in1">Заказать бесплатную консультацию</a>
+					<a class="button-1 button-1__padding" name="modal" href="#log-in2">Заказать бесплатную консультацию</a>
 				</div>
 			</div><!-- dd-main-header-wrap -->
 
