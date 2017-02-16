@@ -22,7 +22,7 @@
 				</div>
 				<div class="db-question-box-two">
 					<h2>Или оставьте номер, мы перезвоним</h2>
-					<form action="#" method="post">
+					<form method="post" class="form1" action="thanks.php">
 						<div class="db-question-box-two-one">
 							<input type="text" name="phone" placeholder="Введите телефон" class="input__text__height  input__text phone">
 						</div>
