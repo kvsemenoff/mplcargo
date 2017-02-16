@@ -46,9 +46,9 @@
 			</div>
 			<div class="dd-numbers__box text__center dd-float__right">
 				<div class="dd-soc-ico ">
-					<span><img src="img/whatsapp_logo.png" alt=""></span>
-					<span><img src="img/viber_logo.png" alt=""></span>
-					<span><img src="img/skype_logo.png" alt=""></span>
+					<a href="tel:+89218914384"><img src="img/w.png" alt=""></a>
+					<a href="tel:+89218914384"><img src="img/v.png" alt=""></a>
+					<a href="tel:+89218914384"><img src="img/s.png" alt=""></a>
 				</div>
 				<span class="number__style">+7 921 8914384</span><br>
 				<a class="dd-links-h" href="#">Заказать звонок</a>
